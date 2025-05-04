@@ -9,6 +9,7 @@ import OnlineUsers from './components/OnlineUsers';
 import Badges from './components/Badges';
 import PrivateFiles from './components/PrivateFiles';
 import Footer from './components/Footer';
+import FloatingButtonsWithChat from '../components/FloatingButtonsWithChat';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <OnlineUsers />
         <Badges />
         <PrivateFiles />
+        {/* Floating Buttons with Chat */}
+      <FloatingButtonsWithChat />
       </main>
       <Footer />
     </div>

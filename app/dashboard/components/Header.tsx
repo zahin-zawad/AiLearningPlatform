@@ -1,5 +1,6 @@
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Bell, MessageCircle } from 'lucide-react';
 import React from 'react';
 
 function Header() {
@@ -32,10 +33,10 @@ function Header() {
           </span>
         </div>
         <button className="px-4 py-2 text-gray-600">
-        bell icon   
+        <Bell />   
         </button>
         <button className="px-4 py-2 text-gray-600">
-          text icon
+        <MessageCircle />
         </button>
         <div className="relative">
           <button className="px-4 py-2 text-gray-600">

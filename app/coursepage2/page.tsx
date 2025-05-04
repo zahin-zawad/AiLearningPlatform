@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../dashboard/components/Header';
+import FloatingButtonsWithChat from '../components/FloatingButtonsWithChat';
+
 
 const CoursePage = () => {
   return (
@@ -62,6 +64,10 @@ const CoursePage = () => {
           Privacy Policy © 2022 Daffodil International University. All Rights Reserved.
         </footer>
       </div>
+
+      {/* Floating Buttons with Chat */}
+      <FloatingButtonsWithChat />
+      
     </div>
   );
 };

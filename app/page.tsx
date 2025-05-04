@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import FloatingButtonsWithChat from "./components/FloatingButtonsWithChat";
 
 export default function HomePage() {
   return (
@@ -98,6 +99,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {/* Floating Buttons with Chat */}
+      <FloatingButtonsWithChat />
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-sm text-center py-4">
